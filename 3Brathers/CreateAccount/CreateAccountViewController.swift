@@ -9,10 +9,10 @@ import UIKit
 
 class CreateAccountViewController: UIViewController, Storybordble {
     
-    weak var coordinator: AppCoordinator?
+    weak var coordinator: CreateAccountCoordinator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .green
+        view.backgroundColor = .white
     }
 }

@@ -9,11 +9,15 @@ import UIKit
 
 class BuyViewController: UIViewController, Storybordble {
     
-    weak var coordinator: AppCoordinator?
+    weak var coordinator: BuyCoordinator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .blue
+        view.backgroundColor = .white
 
+    }
+    
+    deinit {
+        print("deinit")
     }
 }
