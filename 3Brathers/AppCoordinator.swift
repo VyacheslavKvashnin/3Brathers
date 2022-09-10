@@ -19,6 +19,8 @@ class AppCoordinator: Coordinator {
     }
     
     func start() {
+        
+        
         let vc = ViewController.instantiate()
         vc.tabBarItem = UITabBarItem(title: "Product", image: UIImage(systemName: "list.bullet.rectangle.fill"), tag: 0)
         vc.coordinator = self

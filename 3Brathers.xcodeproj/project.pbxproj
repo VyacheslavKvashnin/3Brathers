@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD0614D028CD272900C9B0F3 /* AuthenticationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0614CF28CD272900C9B0F3 /* AuthenticationCoordinator.swift */; };
+		BD0614D228CD27F600C9B0F3 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0614D128CD27F600C9B0F3 /* AuthenticationViewController.swift */; };
 		BD3DC51B28CCE1E0004ED6D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC51A28CCE1E0004ED6D7 /* AppDelegate.swift */; };
 		BD3DC51F28CCE1E0004ED6D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC51E28CCE1E0004ED6D7 /* ViewController.swift */; };
 		BD3DC52228CCE1E0004ED6D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3DC52028CCE1E0004ED6D7 /* Main.storyboard */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD0614CF28CD272900C9B0F3 /* AuthenticationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationCoordinator.swift; sourceTree = "<group>"; };
+		BD0614D128CD27F600C9B0F3 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		BD3DC51728CCE1E0004ED6D7 /* 3Brathers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3Brathers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD3DC51A28CCE1E0004ED6D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD3DC51E28CCE1E0004ED6D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD0614CE28CD26F400C9B0F3 /* Autn */ = {
+			isa = PBXGroup;
+			children = (
+				BD0614CF28CD272900C9B0F3 /* AuthenticationCoordinator.swift */,
+				BD0614D128CD27F600C9B0F3 /* AuthenticationViewController.swift */,
+			);
+			path = Autn;
+			sourceTree = "<group>";
+		};
 		BD3DC50E28CCE1E0004ED6D7 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +90,7 @@
 				BD3DC52F28CCE210004ED6D7 /* Coordinator.swift */,
 				BD3DC53C28CD184E004ED6D7 /* MainTabBarViewController.swift */,
 				BD3DC53328CCE4B8004ED6D7 /* AppCoordinator.swift */,
+				BD0614CE28CD26F400C9B0F3 /* Autn */,
 				BD3DC54128CD22BE004ED6D7 /* ViewController */,
 				BD3DC53928CD0AE1004ED6D7 /* Buy */,
 				BD3DC53E28CD1991004ED6D7 /* CreateAccount */,
@@ -186,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0614D028CD272900C9B0F3 /* AuthenticationCoordinator.swift in Sources */,
 				BD3DC53428CCE4B8004ED6D7 /* AppCoordinator.swift in Sources */,
 				BD3DC53228CCE29D004ED6D7 /* Storybordble.swift in Sources */,
 				BD3DC53028CCE210004ED6D7 /* Coordinator.swift in Sources */,
@@ -195,6 +210,7 @@
 				BD3DC51F28CCE1E0004ED6D7 /* ViewController.swift in Sources */,
 				BD3DC54028CD19AC004ED6D7 /* CreateAccountCoordinator.swift in Sources */,
 				BD3DC53828CCF1F2004ED6D7 /* CreateAccountViewController.swift in Sources */,
+				BD0614D228CD27F600C9B0F3 /* AuthenticationViewController.swift in Sources */,
 				BD3DC51B28CCE1E0004ED6D7 /* AppDelegate.swift in Sources */,
 				BD3DC53628CCF1E4004ED6D7 /* BuyViewController.swift in Sources */,
 			);
