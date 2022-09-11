@@ -7,43 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD0614D028CD272900C9B0F3 /* AuthenticationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0614CF28CD272900C9B0F3 /* AuthenticationCoordinator.swift */; };
-		BD0614D228CD27F600C9B0F3 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0614D128CD27F600C9B0F3 /* AuthenticationViewController.swift */; };
+		BD0614D028CD272900C9B0F3 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0614CF28CD272900C9B0F3 /* LoginCoordinator.swift */; };
+		BD0614D228CD27F600C9B0F3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0614D128CD27F600C9B0F3 /* LoginViewController.swift */; };
 		BD3DC51B28CCE1E0004ED6D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC51A28CCE1E0004ED6D7 /* AppDelegate.swift */; };
-		BD3DC51F28CCE1E0004ED6D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC51E28CCE1E0004ED6D7 /* ViewController.swift */; };
+		BD3DC51F28CCE1E0004ED6D7 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC51E28CCE1E0004ED6D7 /* ProductViewController.swift */; };
 		BD3DC52228CCE1E0004ED6D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3DC52028CCE1E0004ED6D7 /* Main.storyboard */; };
 		BD3DC52428CCE1E1004ED6D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3DC52328CCE1E1004ED6D7 /* Assets.xcassets */; };
 		BD3DC52728CCE1E1004ED6D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3DC52528CCE1E1004ED6D7 /* LaunchScreen.storyboard */; };
 		BD3DC53028CCE210004ED6D7 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC52F28CCE210004ED6D7 /* Coordinator.swift */; };
-		BD3DC53228CCE29D004ED6D7 /* Storybordble.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC53128CCE29D004ED6D7 /* Storybordble.swift */; };
+		BD3DC53228CCE29D004ED6D7 /* Storybordable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC53128CCE29D004ED6D7 /* Storybordable.swift */; };
 		BD3DC53428CCE4B8004ED6D7 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC53328CCE4B8004ED6D7 /* AppCoordinator.swift */; };
-		BD3DC53628CCF1E4004ED6D7 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC53528CCF1E4004ED6D7 /* BuyViewController.swift */; };
-		BD3DC53828CCF1F2004ED6D7 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC53728CCF1F2004ED6D7 /* CreateAccountViewController.swift */; };
-		BD3DC53B28CD0B01004ED6D7 /* BuyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC53A28CD0B01004ED6D7 /* BuyCoordinator.swift */; };
+		BD3DC53628CCF1E4004ED6D7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC53528CCF1E4004ED6D7 /* ProfileViewController.swift */; };
+		BD3DC53828CCF1F2004ED6D7 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC53728CCF1F2004ED6D7 /* CartViewController.swift */; };
+		BD3DC53B28CD0B01004ED6D7 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC53A28CD0B01004ED6D7 /* ProfileCoordinator.swift */; };
 		BD3DC53D28CD184E004ED6D7 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC53C28CD184E004ED6D7 /* MainTabBarViewController.swift */; };
-		BD3DC54028CD19AC004ED6D7 /* CreateAccountCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC53F28CD19AC004ED6D7 /* CreateAccountCoordinator.swift */; };
-		BD3DC54328CD22E1004ED6D7 /* ViewControllerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC54228CD22E1004ED6D7 /* ViewControllerCoordinator.swift */; };
+		BD3DC54028CD19AC004ED6D7 /* CartCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC53F28CD19AC004ED6D7 /* CartCoordinator.swift */; };
+		BD3DC54328CD22E1004ED6D7 /* ProductCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC54228CD22E1004ED6D7 /* ProductCoordinator.swift */; };
+		BDC2944E28CE5427006E1E1E /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2944D28CE5427006E1E1E /* PasswordViewController.swift */; };
+		BDC2945028CE5452006E1E1E /* PasswordCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2944F28CE5452006E1E1E /* PasswordCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BD0614CF28CD272900C9B0F3 /* AuthenticationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationCoordinator.swift; sourceTree = "<group>"; };
-		BD0614D128CD27F600C9B0F3 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		BD0614CF28CD272900C9B0F3 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		BD0614D128CD27F600C9B0F3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BD3DC51728CCE1E0004ED6D7 /* 3Brathers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3Brathers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD3DC51A28CCE1E0004ED6D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD3DC51E28CCE1E0004ED6D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD3DC51E28CCE1E0004ED6D7 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		BD3DC52128CCE1E0004ED6D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD3DC52328CCE1E1004ED6D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD3DC52628CCE1E1004ED6D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD3DC52828CCE1E1004ED6D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD3DC52F28CCE210004ED6D7 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		BD3DC53128CCE29D004ED6D7 /* Storybordble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storybordble.swift; sourceTree = "<group>"; };
+		BD3DC53128CCE29D004ED6D7 /* Storybordable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storybordable.swift; sourceTree = "<group>"; };
 		BD3DC53328CCE4B8004ED6D7 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
-		BD3DC53528CCF1E4004ED6D7 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
-		BD3DC53728CCF1F2004ED6D7 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
-		BD3DC53A28CD0B01004ED6D7 /* BuyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator.swift; sourceTree = "<group>"; };
+		BD3DC53528CCF1E4004ED6D7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BD3DC53728CCF1F2004ED6D7 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		BD3DC53A28CD0B01004ED6D7 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
 		BD3DC53C28CD184E004ED6D7 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
-		BD3DC53F28CD19AC004ED6D7 /* CreateAccountCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountCoordinator.swift; sourceTree = "<group>"; };
-		BD3DC54228CD22E1004ED6D7 /* ViewControllerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCoordinator.swift; sourceTree = "<group>"; };
+		BD3DC53F28CD19AC004ED6D7 /* CartCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCoordinator.swift; sourceTree = "<group>"; };
+		BD3DC54228CD22E1004ED6D7 /* ProductCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCoordinator.swift; sourceTree = "<group>"; };
+		BDC2944D28CE5427006E1E1E /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		BDC2944F28CE5452006E1E1E /* PasswordCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,10 @@
 		BD0614CE28CD26F400C9B0F3 /* Autn */ = {
 			isa = PBXGroup;
 			children = (
-				BD0614CF28CD272900C9B0F3 /* AuthenticationCoordinator.swift */,
-				BD0614D128CD27F600C9B0F3 /* AuthenticationViewController.swift */,
+				BD0614CF28CD272900C9B0F3 /* LoginCoordinator.swift */,
+				BD0614D128CD27F600C9B0F3 /* LoginViewController.swift */,
+				BDC2944D28CE5427006E1E1E /* PasswordViewController.swift */,
+				BDC2944F28CE5452006E1E1E /* PasswordCoordinator.swift */,
 			);
 			path = Autn;
 			sourceTree = "<group>";
@@ -86,14 +92,14 @@
 			isa = PBXGroup;
 			children = (
 				BD3DC51A28CCE1E0004ED6D7 /* AppDelegate.swift */,
-				BD3DC53128CCE29D004ED6D7 /* Storybordble.swift */,
+				BD3DC53328CCE4B8004ED6D7 /* AppCoordinator.swift */,
+				BD3DC53128CCE29D004ED6D7 /* Storybordable.swift */,
 				BD3DC52F28CCE210004ED6D7 /* Coordinator.swift */,
 				BD3DC53C28CD184E004ED6D7 /* MainTabBarViewController.swift */,
-				BD3DC53328CCE4B8004ED6D7 /* AppCoordinator.swift */,
 				BD0614CE28CD26F400C9B0F3 /* Autn */,
-				BD3DC54128CD22BE004ED6D7 /* ViewController */,
-				BD3DC53928CD0AE1004ED6D7 /* Buy */,
-				BD3DC53E28CD1991004ED6D7 /* CreateAccount */,
+				BD3DC54128CD22BE004ED6D7 /* Product */,
+				BD3DC53928CD0AE1004ED6D7 /* Profile */,
+				BD3DC53E28CD1991004ED6D7 /* Cart */,
 				BD3DC52028CCE1E0004ED6D7 /* Main.storyboard */,
 				BD3DC52328CCE1E1004ED6D7 /* Assets.xcassets */,
 				BD3DC52528CCE1E1004ED6D7 /* LaunchScreen.storyboard */,
@@ -102,31 +108,31 @@
 			path = 3Brathers;
 			sourceTree = "<group>";
 		};
-		BD3DC53928CD0AE1004ED6D7 /* Buy */ = {
+		BD3DC53928CD0AE1004ED6D7 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				BD3DC53528CCF1E4004ED6D7 /* BuyViewController.swift */,
-				BD3DC53A28CD0B01004ED6D7 /* BuyCoordinator.swift */,
+				BD3DC53528CCF1E4004ED6D7 /* ProfileViewController.swift */,
+				BD3DC53A28CD0B01004ED6D7 /* ProfileCoordinator.swift */,
 			);
-			path = Buy;
+			path = Profile;
 			sourceTree = "<group>";
 		};
-		BD3DC53E28CD1991004ED6D7 /* CreateAccount */ = {
+		BD3DC53E28CD1991004ED6D7 /* Cart */ = {
 			isa = PBXGroup;
 			children = (
-				BD3DC53728CCF1F2004ED6D7 /* CreateAccountViewController.swift */,
-				BD3DC53F28CD19AC004ED6D7 /* CreateAccountCoordinator.swift */,
+				BD3DC53728CCF1F2004ED6D7 /* CartViewController.swift */,
+				BD3DC53F28CD19AC004ED6D7 /* CartCoordinator.swift */,
 			);
-			path = CreateAccount;
+			path = Cart;
 			sourceTree = "<group>";
 		};
-		BD3DC54128CD22BE004ED6D7 /* ViewController */ = {
+		BD3DC54128CD22BE004ED6D7 /* Product */ = {
 			isa = PBXGroup;
 			children = (
-				BD3DC51E28CCE1E0004ED6D7 /* ViewController.swift */,
-				BD3DC54228CD22E1004ED6D7 /* ViewControllerCoordinator.swift */,
+				BD3DC51E28CCE1E0004ED6D7 /* ProductViewController.swift */,
+				BD3DC54228CD22E1004ED6D7 /* ProductCoordinator.swift */,
 			);
-			path = ViewController;
+			path = Product;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,19 +206,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD0614D028CD272900C9B0F3 /* AuthenticationCoordinator.swift in Sources */,
+				BD0614D028CD272900C9B0F3 /* LoginCoordinator.swift in Sources */,
 				BD3DC53428CCE4B8004ED6D7 /* AppCoordinator.swift in Sources */,
-				BD3DC53228CCE29D004ED6D7 /* Storybordble.swift in Sources */,
+				BD3DC53228CCE29D004ED6D7 /* Storybordable.swift in Sources */,
+				BDC2944E28CE5427006E1E1E /* PasswordViewController.swift in Sources */,
 				BD3DC53028CCE210004ED6D7 /* Coordinator.swift in Sources */,
 				BD3DC53D28CD184E004ED6D7 /* MainTabBarViewController.swift in Sources */,
-				BD3DC53B28CD0B01004ED6D7 /* BuyCoordinator.swift in Sources */,
-				BD3DC54328CD22E1004ED6D7 /* ViewControllerCoordinator.swift in Sources */,
-				BD3DC51F28CCE1E0004ED6D7 /* ViewController.swift in Sources */,
-				BD3DC54028CD19AC004ED6D7 /* CreateAccountCoordinator.swift in Sources */,
-				BD3DC53828CCF1F2004ED6D7 /* CreateAccountViewController.swift in Sources */,
-				BD0614D228CD27F600C9B0F3 /* AuthenticationViewController.swift in Sources */,
+				BDC2945028CE5452006E1E1E /* PasswordCoordinator.swift in Sources */,
+				BD3DC53B28CD0B01004ED6D7 /* ProfileCoordinator.swift in Sources */,
+				BD3DC54328CD22E1004ED6D7 /* ProductCoordinator.swift in Sources */,
+				BD3DC51F28CCE1E0004ED6D7 /* ProductViewController.swift in Sources */,
+				BD3DC54028CD19AC004ED6D7 /* CartCoordinator.swift in Sources */,
+				BD3DC53828CCF1F2004ED6D7 /* CartViewController.swift in Sources */,
+				BD0614D228CD27F600C9B0F3 /* LoginViewController.swift in Sources */,
 				BD3DC51B28CCE1E0004ED6D7 /* AppDelegate.swift in Sources */,
-				BD3DC53628CCF1E4004ED6D7 /* BuyViewController.swift in Sources */,
+				BD3DC53628CCF1E4004ED6D7 /* ProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

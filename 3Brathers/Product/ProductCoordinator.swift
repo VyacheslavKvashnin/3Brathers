@@ -1,5 +1,5 @@
 //
-//  ViewControllerCoordinator.swift
+//  ProductCoordinator.swift
 //  3Brathers
 //
 //  Created by Вячеслав Квашнин on 11.09.2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewControllerCoordinator: Coordinator {
+class ProductCoordinator: Coordinator {
     var childCoordinator = [Coordinator]()
     
     var navigationController: UINavigationController
@@ -17,6 +17,9 @@ class ViewControllerCoordinator: Coordinator {
     }
     
     func start() {
-        
+        let vc = ProductViewController.instantiate()
+        vc.tabBarItem = UITabBarItem(title: "Product", image: UIImage(systemName: "list.bullet.rectangle.fill"), tag: 0)
+//        vc.coordinator = self
+        navigationController.pushViewController(vc, animated: true)
     }
 }

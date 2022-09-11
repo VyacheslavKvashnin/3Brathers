@@ -7,12 +7,13 @@
 
 import UIKit
 
-class AuthenticationViewController: UIViewController, Storybordble {
+class LoginViewController: UIViewController, Storybordable {
     
-    var coordinator: AppCoordinator?
+    var coordinator: LoginCoordinator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+        view.backgroundColor = .cyan
+        title = "Auth"
     }
 }

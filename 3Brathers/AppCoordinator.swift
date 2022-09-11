@@ -12,34 +12,48 @@ class AppCoordinator: Coordinator {
     var childCoordinator = [Coordinator]()
     var navigationController: UINavigationController
     
-    var isSelected = false
+    var isLoggedIn = false
 
     init(navigationController: UINavigationController) {
         self.navigationController = navigationController
     }
     
     func start() {
-        
-        
-        let vc = ViewController.instantiate()
+        if !isLoggedIn {
+            showViewController()
+        } else {
+            showPassword()
+        }
+    }
+    
+    func showPassword() {
+        let child = PasswordCoordinator(navigationController: navigationController)
+        childCoordinator.append(child)
+        child.start()
+    }
+    
+    func showViewController() {
+        let vc = ProductViewController.instantiate()
         vc.tabBarItem = UITabBarItem(title: "Product", image: UIImage(systemName: "list.bullet.rectangle.fill"), tag: 0)
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)
     }
     
-    func showViewController() {
-        
+    func showLogin() {
+        let child = LoginCoordinator(navigationController: navigationController)
+        childCoordinator.append(child)
+        child.start()
     }
     
     func buySubscription() {
-        let child = BuyCoordinator(navigationController: navigationController)
+        let child = ProfileCoordinator(navigationController: navigationController)
         childCoordinator.append(child)
         child.parentCoordinator = self
         child.start()
     }
     
     func createAccount() {
-        let child = CreateAccountCoordinator(navigationController: navigationController)
+        let child = CartCoordinator(navigationController: navigationController)
         childCoordinator.append(child)
         child.start()
     }

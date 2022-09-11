@@ -1,16 +1,13 @@
 //
-//  BuyCoordinator.swift
+//  AuthenticationCoordinator.swift
 //  3Brathers
 //
-//  Created by Вячеслав Квашнин on 10.09.2022.
+//  Created by Вячеслав Квашнин on 11.09.2022.
 //
 
 import UIKit
 
-class BuyCoordinator: Coordinator {
-    
-    weak var parentCoordinator: AppCoordinator?
-    
+class LoginCoordinator: Coordinator {
     var childCoordinator = [Coordinator]()
     
     var navigationController: UINavigationController
@@ -20,8 +17,7 @@ class BuyCoordinator: Coordinator {
     }
     
     func start() {
-        let vc = BuyViewController.instantiate()
-        vc.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(systemName: "person"), tag: 1)
+        let vc = LoginViewController.instantiate()
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)
     }

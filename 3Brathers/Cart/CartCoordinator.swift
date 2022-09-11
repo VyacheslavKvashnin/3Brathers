@@ -1,5 +1,5 @@
 //
-//  CreateAccountCoordinator.swift
+//  CartCoordinator.swift
 //  3Brathers
 //
 //  Created by Вячеслав Квашнин on 11.09.2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CreateAccountCoordinator: Coordinator {
+class CartCoordinator: Coordinator {
     var childCoordinator = [Coordinator]()
     
     var navigationController: UINavigationController
@@ -17,7 +17,7 @@ class CreateAccountCoordinator: Coordinator {
     }
     
     func start() {
-        let vc = CreateAccountViewController.instantiate()
+        let vc = CartViewController.instantiate()
         vc.tabBarItem = UITabBarItem(title: "Cart", image: UIImage(systemName: "cart"), tag: 2)
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)
