@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -10,9 +11,9 @@
         <!--Product View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ProductViewController" customModule="_Brathers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProductViewController" id="BYZ-38-t0r" customClass="ProductViewController" customModule="3Brathers" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ja-Z8-fKb">
@@ -45,9 +46,9 @@
         <!--Profile View Controller-->
         <scene sceneID="z4X-HT-qi2">
             <objects>
-                <viewController storyboardIdentifier="BuyViewController" id="jdJ-nb-Wqc" customClass="ProfileViewController" customModule="_Brathers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProfileViewController" id="jdJ-nb-Wqc" customClass="ProfileViewController" customModule="3Brathers" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2PL-0w-S8I">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="v1O-4X-k2c"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -60,9 +61,9 @@
         <!--Cart View Controller-->
         <scene sceneID="Dmh-Ux-pAI">
             <objects>
-                <viewController storyboardIdentifier="CreateAccountViewController" id="B4X-zP-190" customClass="CartViewController" customModule="_Brathers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CartViewController" id="B4X-zP-190" customClass="CartViewController" customModule="3Brathers" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gvt-3E-qpo">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="SsW-R5-w79"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -75,9 +76,9 @@
         <!--Login View Controller-->
         <scene sceneID="VDC-GS-MDB">
             <objects>
-                <viewController storyboardIdentifier="AuthenticationViewController" id="H2V-pR-Tgi" customClass="LoginViewController" customModule="_Brathers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="H2V-pR-Tgi" customClass="LoginViewController" customModule="3Brathers" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SWp-nR-VcK">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Ky8-s9-0RZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -86,6 +87,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WiA-LM-Oo5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2209" y="80"/>
+        </scene>
+        <!--Password View Controller-->
+        <scene sceneID="IoJ-5Z-R9Z">
+            <objects>
+                <viewController storyboardIdentifier="PasswordViewController" id="P4g-9q-EhE" customClass="PasswordViewController" customModule="3Brathers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gQg-LS-xxG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="z57-qf-Rde"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RTw-uC-tUl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2910" y="93"/>
         </scene>
     </scenes>
     <resources>
