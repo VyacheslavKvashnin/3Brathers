@@ -14,10 +14,6 @@ class ProfileViewController: UIViewController, Storybordable {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-
-    }
-    
-    deinit {
-        print("deinit")
+        title = "Profile"
     }
 }

@@ -9,10 +9,11 @@ import UIKit
 
 class PasswordViewController: UIViewController, Storybordable {
     
-    var coordinator: PasswordCoordinator?
+    var coordinator: AppCoordinator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        title = "Password"
+        view.backgroundColor = .cyan
     }
 }

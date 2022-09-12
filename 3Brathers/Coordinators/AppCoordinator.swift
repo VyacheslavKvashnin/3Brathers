@@ -19,11 +19,11 @@ class AppCoordinator: Coordinator {
     }
     
     func start() {
-        if !isLoggedIn {
-            showViewController()
-        } else {
-            showPassword()
-        }
+//        if UserDefaults.standard.bool(forKey: "value") {
+            showProduct()
+//        } else {
+//            showLogin()
+//        }
     }
     
     func showPassword() {
@@ -32,7 +32,7 @@ class AppCoordinator: Coordinator {
         child.start()
     }
     
-    func showViewController() {
+    func showProduct() {
         let vc = ProductViewController.instantiate()
         vc.tabBarItem = UITabBarItem(title: "Product", image: UIImage(systemName: "list.bullet.rectangle.fill"), tag: 0)
         vc.coordinator = self
@@ -45,14 +45,14 @@ class AppCoordinator: Coordinator {
         child.start()
     }
     
-    func buySubscription() {
+    func showProfile() {
         let child = ProfileCoordinator(navigationController: navigationController)
         childCoordinator.append(child)
         child.parentCoordinator = self
         child.start()
     }
     
-    func createAccount() {
+    func showCart() {
         let child = CartCoordinator(navigationController: navigationController)
         childCoordinator.append(child)
         child.start()

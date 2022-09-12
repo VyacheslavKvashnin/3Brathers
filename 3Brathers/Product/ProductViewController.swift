@@ -18,11 +18,11 @@ class ProductViewController: UIViewController, Storybordable {
     }
     
     @IBAction func buyButton(_ sender: Any) {
-        coordinator?.buySubscription()
+        coordinator?.showProfile()
     }
     
     @IBAction func createButton(_ sender: Any) {
-        coordinator?.createAccount()
+        coordinator?.showCart()
     }
 }
 

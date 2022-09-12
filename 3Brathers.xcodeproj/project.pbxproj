@@ -64,8 +64,8 @@
 		BD0614CE28CD26F400C9B0F3 /* Autn */ = {
 			isa = PBXGroup;
 			children = (
-				BD0614CF28CD272900C9B0F3 /* LoginCoordinator.swift */,
 				BD0614D128CD27F600C9B0F3 /* LoginViewController.swift */,
+				BD0614CF28CD272900C9B0F3 /* LoginCoordinator.swift */,
 				BDC2944D28CE5427006E1E1E /* PasswordViewController.swift */,
 				BDC2944F28CE5452006E1E1E /* PasswordCoordinator.swift */,
 			);

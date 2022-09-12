@@ -18,7 +18,7 @@ class PasswordCoordinator: Coordinator {
     
     func start() {
         let vc = PasswordViewController.instantiate()
-        vc.coordinator = self
+//        vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)
     }
 }

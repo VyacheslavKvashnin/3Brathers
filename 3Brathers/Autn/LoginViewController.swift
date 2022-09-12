@@ -9,14 +9,15 @@ import UIKit
 
 class LoginViewController: UIViewController, Storybordable {
     
-    var coordinator: AppCoordinator?
+    weak var coordinator: AppCoordinator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .cyan
-        title = "Auth"
+        title = "Login"
     }
-    @IBAction func pressNextButton(_ sender: Any) {
+    
+    @IBAction func pressedLoginButton(_ sender: Any) {
         coordinator?.showPassword()
     }
 }

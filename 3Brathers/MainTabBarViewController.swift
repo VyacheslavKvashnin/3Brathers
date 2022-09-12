@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainTabBarViewController: UITabBarController, Storybordable {
+class MainTabBarViewController: UITabBarController {
     
     let main = AppCoordinator(navigationController: UINavigationController())
     let buy = ProfileCoordinator(navigationController: UINavigationController())
