@@ -9,11 +9,14 @@ import UIKit
 
 class PasswordViewController: UIViewController, Storybordable {
     
-    var coordinator: AppCoordinator?
+    var coordinator: PasswordCoordinator?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Password"
         view.backgroundColor = .cyan
+    }
+    @IBAction func pressedPasswordButton(_ sender: Any) {
+        coordinator?.showTabBar()
     }
 }

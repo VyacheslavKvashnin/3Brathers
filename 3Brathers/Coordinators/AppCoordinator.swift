@@ -19,17 +19,17 @@ class AppCoordinator: Coordinator {
     }
     
     func start() {
-//        if UserDefaults.standard.bool(forKey: "value") {
-            showProduct()
-//        } else {
-//            showLogin()
-//        }
+        if isLoggedIn {
+            showMainTabBar()
+        } else {
+            showLogin()
+        }
     }
     
-    func showPassword() {
-        let child = PasswordCoordinator(navigationController: navigationController)
-        childCoordinator.append(child)
-        child.start()
+    func showMainTabBar() {
+        let vc = MainTabBarViewController.instantiate()
+        navigationController.viewControllers.removeAll()
+        navigationController.pushViewController(vc, animated: true)
     }
     
     func showProduct() {

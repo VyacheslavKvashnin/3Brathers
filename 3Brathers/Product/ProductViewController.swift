@@ -14,7 +14,7 @@ class ProductViewController: UIViewController, Storybordable {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        
+        title = "Product"
     }
     
     @IBAction func buyButton(_ sender: Any) {

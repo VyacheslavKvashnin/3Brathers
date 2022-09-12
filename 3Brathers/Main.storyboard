@@ -41,7 +41,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="113.04347826086958" y="79.6875"/>
+            <point key="canvasLocation" x="-261" y="80"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="z4X-HT-qi2">
@@ -72,6 +72,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nid-qh-Buq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1468" y="80"/>
+        </scene>
+        <!--Main Tab Bar View Controller-->
+        <scene sceneID="kEn-wW-BPV">
+            <objects>
+                <viewController storyboardIdentifier="MainTabBarViewController" id="AT7-Zs-UeS" customClass="MainTabBarViewController" customModule="_Brathers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GmX-YC-VWM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="m24-WC-6fK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KfQ-iu-zZV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2177" y="80"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="VDC-GS-MDB">
@@ -111,7 +126,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WiA-LM-Oo5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2209" y="80"/>
+            <point key="canvasLocation" x="-2312" y="80"/>
         </scene>
         <!--Password View Controller-->
         <scene sceneID="IoJ-5Z-R9Z">
@@ -133,6 +148,9 @@
                                         <rect key="frame" x="0.0" y="94" width="214" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Next"/>
+                                        <connections>
+                                            <action selector="pressedPasswordButton:" destination="P4g-9q-EhE" eventType="touchUpInside" id="RkJ-4U-g01"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -148,7 +166,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RTw-uC-tUl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2910" y="80"/>
+            <point key="canvasLocation" x="-1612" y="80"/>
         </scene>
     </scenes>
     <resources>

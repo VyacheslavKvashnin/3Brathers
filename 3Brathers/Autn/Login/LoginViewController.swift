@@ -9,7 +9,7 @@ import UIKit
 
 class LoginViewController: UIViewController, Storybordable {
     
-    weak var coordinator: AppCoordinator?
+    weak var coordinator: LoginCoordinator?
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -7,20 +7,22 @@
 
 import UIKit
 
-class MainTabBarViewController: UITabBarController {
+class MainTabBarViewController: UITabBarController, Storybordable {
     
-    let main = AppCoordinator(navigationController: UINavigationController())
+//    let main = AppCoordinator(navigationController: UINavigationController())
+    let product = ProductCoordinator(navigationController: UINavigationController())
     let buy = ProfileCoordinator(navigationController: UINavigationController())
     let create = CartCoordinator(navigationController: UINavigationController())
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        main.start()
+//        main.start()
+        product.start()
         buy.start()
         create.start()
         
-        viewControllers = [main.navigationController, buy.navigationController, create.navigationController]
+        viewControllers = [product.navigationController, buy.navigationController, create.navigationController]
       
     }
 }

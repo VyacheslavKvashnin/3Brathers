@@ -18,7 +18,13 @@ class LoginCoordinator: Coordinator {
     
     func start() {
         let vc = LoginViewController.instantiate()
-//        vc.coordinator = self
+        vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)
+    }
+    
+    func showPassword() {
+        let child = PasswordCoordinator(navigationController: navigationController)
+        childCoordinator.append(child)
+        child.start()
     }
 }

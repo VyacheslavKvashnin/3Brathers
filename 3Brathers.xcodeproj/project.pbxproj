@@ -21,6 +21,7 @@
 		BD3DC53D28CD184E004ED6D7 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC53C28CD184E004ED6D7 /* MainTabBarViewController.swift */; };
 		BD3DC54028CD19AC004ED6D7 /* CartCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC53F28CD19AC004ED6D7 /* CartCoordinator.swift */; };
 		BD3DC54328CD22E1004ED6D7 /* ProductCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC54228CD22E1004ED6D7 /* ProductCoordinator.swift */; };
+		BDB7010228CF3601006F2547 /* MainTabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB7010128CF3601006F2547 /* MainTabBarCoordinator.swift */; };
 		BDC2944E28CE5427006E1E1E /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2944D28CE5427006E1E1E /* PasswordViewController.swift */; };
 		BDC2945028CE5452006E1E1E /* PasswordCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2944F28CE5452006E1E1E /* PasswordCoordinator.swift */; };
 		BDC2948928CE6B63006E1E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC2948728CE6B63006E1E1E /* LaunchScreen.storyboard */; };
@@ -44,6 +45,7 @@
 		BD3DC53C28CD184E004ED6D7 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		BD3DC53F28CD19AC004ED6D7 /* CartCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCoordinator.swift; sourceTree = "<group>"; };
 		BD3DC54228CD22E1004ED6D7 /* ProductCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCoordinator.swift; sourceTree = "<group>"; };
+		BDB7010128CF3601006F2547 /* MainTabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarCoordinator.swift; sourceTree = "<group>"; };
 		BDC2944D28CE5427006E1E1E /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 		BDC2944F28CE5452006E1E1E /* PasswordCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCoordinator.swift; sourceTree = "<group>"; };
 		BDC2948728CE6B63006E1E1E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,10 +66,8 @@
 		BD0614CE28CD26F400C9B0F3 /* Autn */ = {
 			isa = PBXGroup;
 			children = (
-				BD0614D128CD27F600C9B0F3 /* LoginViewController.swift */,
-				BD0614CF28CD272900C9B0F3 /* LoginCoordinator.swift */,
-				BDC2944D28CE5427006E1E1E /* PasswordViewController.swift */,
-				BDC2944F28CE5452006E1E1E /* PasswordCoordinator.swift */,
+				BDB700FF28CF34BF006F2547 /* Login */,
+				BDB7010028CF34CB006F2547 /* Password */,
 			);
 			path = Autn;
 			sourceTree = "<group>";
@@ -92,7 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				BD3DC51A28CCE1E0004ED6D7 /* AppDelegate.swift */,
-				BD3DC53C28CD184E004ED6D7 /* MainTabBarViewController.swift */,
+				BDB700FE28CF34A4006F2547 /* TabBar */,
 				BDC2945128CE579C006E1E1E /* Coordinators */,
 				BD0614CE28CD26F400C9B0F3 /* Autn */,
 				BD3DC54128CD22BE004ED6D7 /* Product */,
@@ -131,6 +131,33 @@
 				BD3DC54228CD22E1004ED6D7 /* ProductCoordinator.swift */,
 			);
 			path = Product;
+			sourceTree = "<group>";
+		};
+		BDB700FE28CF34A4006F2547 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				BD3DC53C28CD184E004ED6D7 /* MainTabBarViewController.swift */,
+				BDB7010128CF3601006F2547 /* MainTabBarCoordinator.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		BDB700FF28CF34BF006F2547 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BD0614D128CD27F600C9B0F3 /* LoginViewController.swift */,
+				BD0614CF28CD272900C9B0F3 /* LoginCoordinator.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BDB7010028CF34CB006F2547 /* Password */ = {
+			isa = PBXGroup;
+			children = (
+				BDC2944D28CE5427006E1E1E /* PasswordViewController.swift */,
+				BDC2944F28CE5452006E1E1E /* PasswordCoordinator.swift */,
+			);
+			path = Password;
 			sourceTree = "<group>";
 		};
 		BDC2945128CE579C006E1E1E /* Coordinators */ = {
@@ -225,6 +252,7 @@
 				BD3DC54328CD22E1004ED6D7 /* ProductCoordinator.swift in Sources */,
 				BD3DC51F28CCE1E0004ED6D7 /* ProductViewController.swift in Sources */,
 				BD3DC54028CD19AC004ED6D7 /* CartCoordinator.swift in Sources */,
+				BDB7010228CF3601006F2547 /* MainTabBarCoordinator.swift in Sources */,
 				BD3DC53828CCF1F2004ED6D7 /* CartViewController.swift in Sources */,
 				BD0614D228CD27F600C9B0F3 /* LoginViewController.swift in Sources */,
 				BD3DC51B28CCE1E0004ED6D7 /* AppDelegate.swift in Sources */,
