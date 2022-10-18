@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class AppCoordinator: Coordinator {
     
@@ -19,10 +20,10 @@ class AppCoordinator: Coordinator {
     }
     
     func start() {
-        if isLoggedIn {
-            showMainTabBar()
-        } else {
+        if Auth.auth().currentUser == nil {
             showLogin()
+        } else {
+            showMainTabBar()
         }
     }
     

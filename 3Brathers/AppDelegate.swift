@@ -18,16 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
         
-        if Auth.auth().currentUser == nil {
-            let navController = UINavigationController()
-            coordinator = AppCoordinator(navigationController: navController)
-            coordinator?.start()
-            window = UIWindow(frame: UIScreen.main.bounds)
-            window?.rootViewController = navController
-        } else {
-            window?.rootViewController = MainTabBarViewController()
-        }
-        
+        let navController = UINavigationController()
+        coordinator = AppCoordinator(navigationController: navController)
+        coordinator?.start()
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = navController
         window?.makeKeyAndVisible()
     
         return true
