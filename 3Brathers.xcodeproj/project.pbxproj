@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD0614D028CD272900C9B0F3 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0614CF28CD272900C9B0F3 /* LoginCoordinator.swift */; };
-		BD0614D228CD27F600C9B0F3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0614D128CD27F600C9B0F3 /* LoginViewController.swift */; };
+		BD0614D028CD272900C9B0F3 /* PhoneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0614CF28CD272900C9B0F3 /* PhoneCoordinator.swift */; };
+		BD0614D228CD27F600C9B0F3 /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0614D128CD27F600C9B0F3 /* PhoneViewController.swift */; };
 		BD3DC51B28CCE1E0004ED6D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC51A28CCE1E0004ED6D7 /* AppDelegate.swift */; };
 		BD3DC51F28CCE1E0004ED6D7 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC51E28CCE1E0004ED6D7 /* ProductViewController.swift */; };
 		BD3DC52428CCE1E1004ED6D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3DC52328CCE1E1004ED6D7 /* Assets.xcassets */; };
@@ -21,16 +21,23 @@
 		BD3DC53D28CD184E004ED6D7 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC53C28CD184E004ED6D7 /* MainTabBarViewController.swift */; };
 		BD3DC54028CD19AC004ED6D7 /* CartCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC53F28CD19AC004ED6D7 /* CartCoordinator.swift */; };
 		BD3DC54328CD22E1004ED6D7 /* ProductCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DC54228CD22E1004ED6D7 /* ProductCoordinator.swift */; };
+		BD817B5828FF0EBC005BD158 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BD817B5728FF0EBC005BD158 /* FirebaseAuth */; };
+		BD817B5A28FF0EBC005BD158 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = BD817B5928FF0EBC005BD158 /* FirebaseDatabase */; };
+		BD817B5C28FF0EBC005BD158 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BD817B5B28FF0EBC005BD158 /* FirebaseFirestore */; };
+		BD817B5E28FF0EBC005BD158 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = BD817B5D28FF0EBC005BD158 /* FirebaseStorage */; };
+		BD817B6028FF0F90005BD158 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD817B5F28FF0F90005BD158 /* GoogleService-Info.plist */; };
+		BD817B6228FF113E005BD158 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD817B6128FF113E005BD158 /* AuthManager.swift */; };
 		BDB7010228CF3601006F2547 /* MainTabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB7010128CF3601006F2547 /* MainTabBarCoordinator.swift */; };
-		BDC2944E28CE5427006E1E1E /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2944D28CE5427006E1E1E /* PasswordViewController.swift */; };
-		BDC2945028CE5452006E1E1E /* PasswordCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2944F28CE5452006E1E1E /* PasswordCoordinator.swift */; };
+		BDC2944E28CE5427006E1E1E /* SmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2944D28CE5427006E1E1E /* SmsViewController.swift */; };
+		BDC2945028CE5452006E1E1E /* SmsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2944F28CE5452006E1E1E /* SmsCoordinator.swift */; };
 		BDC2948928CE6B63006E1E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC2948728CE6B63006E1E1E /* LaunchScreen.storyboard */; };
 		BDC2948E28CE6FCF006E1E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC2948D28CE6FCF006E1E1E /* Main.storyboard */; };
+		BDDAB18C28FDCFDE00843488 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDAB18B28FDCFDE00843488 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BD0614CF28CD272900C9B0F3 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
-		BD0614D128CD27F600C9B0F3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BD0614CF28CD272900C9B0F3 /* PhoneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneCoordinator.swift; sourceTree = "<group>"; };
+		BD0614D128CD27F600C9B0F3 /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
 		BD3DC51728CCE1E0004ED6D7 /* 3Brathers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3Brathers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD3DC51A28CCE1E0004ED6D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD3DC51E28CCE1E0004ED6D7 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
@@ -45,11 +52,14 @@
 		BD3DC53C28CD184E004ED6D7 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		BD3DC53F28CD19AC004ED6D7 /* CartCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCoordinator.swift; sourceTree = "<group>"; };
 		BD3DC54228CD22E1004ED6D7 /* ProductCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCoordinator.swift; sourceTree = "<group>"; };
+		BD817B5F28FF0F90005BD158 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BD817B6128FF113E005BD158 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		BDB7010128CF3601006F2547 /* MainTabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarCoordinator.swift; sourceTree = "<group>"; };
-		BDC2944D28CE5427006E1E1E /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
-		BDC2944F28CE5452006E1E1E /* PasswordCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCoordinator.swift; sourceTree = "<group>"; };
+		BDC2944D28CE5427006E1E1E /* SmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmsViewController.swift; sourceTree = "<group>"; };
+		BDC2944F28CE5452006E1E1E /* SmsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmsCoordinator.swift; sourceTree = "<group>"; };
 		BDC2948728CE6B63006E1E1E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDC2948D28CE6FCF006E1E1E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BDDAB18B28FDCFDE00843488 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD817B5A28FF0EBC005BD158 /* FirebaseDatabase in Frameworks */,
+				BD817B5E28FF0EBC005BD158 /* FirebaseStorage in Frameworks */,
+				BD817B5828FF0EBC005BD158 /* FirebaseAuth in Frameworks */,
+				BD817B5C28FF0EBC005BD158 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +80,7 @@
 		BD0614CE28CD26F400C9B0F3 /* Autn */ = {
 			isa = PBXGroup;
 			children = (
+				BD817B6128FF113E005BD158 /* AuthManager.swift */,
 				BDB700FF28CF34BF006F2547 /* Login */,
 				BDB7010028CF34CB006F2547 /* Password */,
 			);
@@ -91,7 +106,9 @@
 		BD3DC51928CCE1E0004ED6D7 /* 3Brathers */ = {
 			isa = PBXGroup;
 			children = (
+				BD817B5F28FF0F90005BD158 /* GoogleService-Info.plist */,
 				BD3DC51A28CCE1E0004ED6D7 /* AppDelegate.swift */,
+				BDDAB18A28FDCFB400843488 /* Services */,
 				BDB700FE28CF34A4006F2547 /* TabBar */,
 				BDC2945128CE579C006E1E1E /* Coordinators */,
 				BD0614CE28CD26F400C9B0F3 /* Autn */,
@@ -145,8 +162,8 @@
 		BDB700FF28CF34BF006F2547 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				BD0614D128CD27F600C9B0F3 /* LoginViewController.swift */,
-				BD0614CF28CD272900C9B0F3 /* LoginCoordinator.swift */,
+				BD0614D128CD27F600C9B0F3 /* PhoneViewController.swift */,
+				BD0614CF28CD272900C9B0F3 /* PhoneCoordinator.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -154,8 +171,8 @@
 		BDB7010028CF34CB006F2547 /* Password */ = {
 			isa = PBXGroup;
 			children = (
-				BDC2944D28CE5427006E1E1E /* PasswordViewController.swift */,
-				BDC2944F28CE5452006E1E1E /* PasswordCoordinator.swift */,
+				BDC2944D28CE5427006E1E1E /* SmsViewController.swift */,
+				BDC2944F28CE5452006E1E1E /* SmsCoordinator.swift */,
 			);
 			path = Password;
 			sourceTree = "<group>";
@@ -168,6 +185,14 @@
 				BD3DC52F28CCE210004ED6D7 /* Coordinator.swift */,
 			);
 			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		BDDAB18A28FDCFB400843488 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BDDAB18B28FDCFDE00843488 /* NetworkManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +211,12 @@
 			dependencies = (
 			);
 			name = 3Brathers;
+			packageProductDependencies = (
+				BD817B5728FF0EBC005BD158 /* FirebaseAuth */,
+				BD817B5928FF0EBC005BD158 /* FirebaseDatabase */,
+				BD817B5B28FF0EBC005BD158 /* FirebaseFirestore */,
+				BD817B5D28FF0EBC005BD158 /* FirebaseStorage */,
+			);
 			productName = 3Brathers;
 			productReference = BD3DC51728CCE1E0004ED6D7 /* 3Brathers.app */;
 			productType = "com.apple.product-type.application";
@@ -214,6 +245,9 @@
 				Base,
 			);
 			mainGroup = BD3DC50E28CCE1E0004ED6D7;
+			packageReferences = (
+				BD817B5628FF0EBC005BD158 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = BD3DC51828CCE1E0004ED6D7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -229,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDC2948E28CE6FCF006E1E1E /* Main.storyboard in Resources */,
+				BD817B6028FF0F90005BD158 /* GoogleService-Info.plist in Resources */,
 				BD3DC52428CCE1E1004ED6D7 /* Assets.xcassets in Resources */,
 				BDC2948928CE6B63006E1E1E /* LaunchScreen.storyboard in Resources */,
 			);
@@ -241,20 +276,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD0614D028CD272900C9B0F3 /* LoginCoordinator.swift in Sources */,
+				BD0614D028CD272900C9B0F3 /* PhoneCoordinator.swift in Sources */,
+				BD817B6228FF113E005BD158 /* AuthManager.swift in Sources */,
 				BD3DC53428CCE4B8004ED6D7 /* AppCoordinator.swift in Sources */,
 				BD3DC53228CCE29D004ED6D7 /* Storybordable.swift in Sources */,
-				BDC2944E28CE5427006E1E1E /* PasswordViewController.swift in Sources */,
+				BDC2944E28CE5427006E1E1E /* SmsViewController.swift in Sources */,
 				BD3DC53028CCE210004ED6D7 /* Coordinator.swift in Sources */,
+				BDDAB18C28FDCFDE00843488 /* NetworkManager.swift in Sources */,
 				BD3DC53D28CD184E004ED6D7 /* MainTabBarViewController.swift in Sources */,
-				BDC2945028CE5452006E1E1E /* PasswordCoordinator.swift in Sources */,
+				BDC2945028CE5452006E1E1E /* SmsCoordinator.swift in Sources */,
 				BD3DC53B28CD0B01004ED6D7 /* ProfileCoordinator.swift in Sources */,
 				BD3DC54328CD22E1004ED6D7 /* ProductCoordinator.swift in Sources */,
 				BD3DC51F28CCE1E0004ED6D7 /* ProductViewController.swift in Sources */,
 				BD3DC54028CD19AC004ED6D7 /* CartCoordinator.swift in Sources */,
 				BDB7010228CF3601006F2547 /* MainTabBarCoordinator.swift in Sources */,
 				BD3DC53828CCF1F2004ED6D7 /* CartViewController.swift in Sources */,
-				BD0614D228CD27F600C9B0F3 /* LoginViewController.swift in Sources */,
+				BD0614D228CD27F600C9B0F3 /* PhoneViewController.swift in Sources */,
 				BD3DC51B28CCE1E0004ED6D7 /* AppDelegate.swift in Sources */,
 				BD3DC53628CCF1E4004ED6D7 /* ProfileViewController.swift in Sources */,
 			);
@@ -455,6 +492,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BD817B5628FF0EBC005BD158 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BD817B5728FF0EBC005BD158 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD817B5628FF0EBC005BD158 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		BD817B5928FF0EBC005BD158 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD817B5628FF0EBC005BD158 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		BD817B5B28FF0EBC005BD158 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD817B5628FF0EBC005BD158 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		BD817B5D28FF0EBC005BD158 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD817B5628FF0EBC005BD158 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BD3DC50F28CCE1E0004ED6D7 /* Project object */;
 }

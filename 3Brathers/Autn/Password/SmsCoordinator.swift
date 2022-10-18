@@ -1,5 +1,5 @@
 //
-//  AuthenticationCoordinator.swift
+//  SmsCoordinator.swift
 //  3Brathers
 //
 //  Created by Вячеслав Квашнин on 11.09.2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LoginCoordinator: Coordinator {
+class SmsCoordinator: Coordinator {
     var childCoordinator = [Coordinator]()
     
     var navigationController: UINavigationController
@@ -17,14 +17,14 @@ class LoginCoordinator: Coordinator {
     }
     
     func start() {
-        let vc = LoginViewController.instantiate()
+        let vc = SmsViewController.instantiate()
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)
     }
     
-    func showPassword() {
-        let child = PasswordCoordinator(navigationController: navigationController)
-        childCoordinator.append(child)
-        child.start()
+    func showTabBar() {
+        let vc = MainTabBarViewController.instantiate()
+        navigationController.viewControllers.removeAll()
+        navigationController.pushViewController(vc, animated: true)
     }
 }

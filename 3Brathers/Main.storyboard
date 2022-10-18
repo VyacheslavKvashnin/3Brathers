@@ -88,10 +88,10 @@
             </objects>
             <point key="canvasLocation" x="2177" y="80"/>
         </scene>
-        <!--Login View Controller-->
+        <!--Phone View Controller-->
         <scene sceneID="VDC-GS-MDB">
             <objects>
-                <viewController storyboardIdentifier="LoginViewController" id="H2V-pR-Tgi" customClass="LoginViewController" customModule="_Brathers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PhoneViewController" id="H2V-pR-Tgi" customClass="PhoneViewController" customModule="_Brathers" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SWp-nR-VcK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -123,15 +123,18 @@
                             <constraint firstItem="O4G-uh-4kQ" firstAttribute="leading" secondItem="Ky8-s9-0RZ" secondAttribute="leading" constant="100" id="k3i-81-2ex"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="phoneNumber" destination="idH-df-bwG" id="tas-3R-Tsg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WiA-LM-Oo5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2312" y="80"/>
         </scene>
-        <!--Password View Controller-->
+        <!--Sms View Controller-->
         <scene sceneID="IoJ-5Z-R9Z">
             <objects>
-                <viewController storyboardIdentifier="PasswordViewController" id="P4g-9q-EhE" customClass="PasswordViewController" customModule="_Brathers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SmsViewController" id="P4g-9q-EhE" customClass="SmsViewController" customModule="_Brathers" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gQg-LS-xxG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -163,6 +166,9 @@
                             <constraint firstItem="72L-tT-toX" firstAttribute="leading" secondItem="z57-qf-Rde" secondAttribute="leading" constant="100" id="c7m-AL-6Ji"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="smsCode" destination="rz4-9n-xwO" id="PDL-PB-Y3K"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RTw-uC-tUl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

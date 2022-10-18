@@ -29,7 +29,7 @@ class AppCoordinator: Coordinator {
     func showMainTabBar() {
         let vc = MainTabBarViewController.instantiate()
         navigationController.viewControllers.removeAll()
-        navigationController.pushViewController(vc, animated: true)
+        navigationController.setViewControllers([vc], animated: false)
     }
     
     func showProduct() {
@@ -40,7 +40,7 @@ class AppCoordinator: Coordinator {
     }
     
     func showLogin() {
-        let child = LoginCoordinator(navigationController: navigationController)
+        let child = PhoneCoordinator(navigationController: navigationController)
         childCoordinator.append(child)
         child.start()
     }
